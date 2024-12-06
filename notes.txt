@@ -1,0 +1,44 @@
+    DOM(Document OBject Model)
+    rendering
+    middle layer
+    interface
+    accessing objects
+    
+    DOM methods: 
+    <document>.querySelector(), <document>.querySelectorAll(), <document>.getElementById()
+    innerText, 
+    textContent, 
+    innerHTML,
+    style => <element_name>.style.color = "";
+
+    DOM Methods:
+    -querySelector() - 
+    -querySelectorAll() - pick a list of items
+    -getElementById()
+    -getElementsByClassName()
+    -getElementByTagName()
+
+    Change Content Methods:
+    -<variable_name>.textContent = "<new_value>"
+    -<variable_name>.innerText = "<new_value>"
+    -innerHTML
+
+    Styling Content Methods:
+    -<variable_name>.style.<what_style>
+
+    creating new element on the page:
+    -createElement()
+
+    mount child to parent:
+    -appendChild()
+
+    get multiple items
+    -forEach() - looping through elements
+    -map() - create new array, callback functions
+
+
+    -event listeners methods:
+    -click, submit, mouseOver, keypress
+    -addEventListener("<event>", callbackFunction()=>{})
+
+    lexical scoping/closures - 
